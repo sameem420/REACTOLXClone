@@ -1,26 +1,26 @@
 import React from 'react';
-import Greetings from './Greetings';
+import './App.css';
+import HomePage from './components/HomePage';
+import Header from './components/Header';
+import { Routes, Route } from 'react-router-dom';
+import Footer from './components/Footer';
+import BottomFooter from './components/BottomFooter';
+import ProductDetails from './components/ProductDetails';
+import Category from './components/Category/Category';
 
-function App({name,age}) {
+function App() {
   return (
-    <div>
-      <h1>Hellow World From {name}. My age is {age}</h1>
-      <Greetings name={name} />
-      
-      <ul>
-      <h5>Things I Like</h5>
-        <li>Chicken Karahi</li>
-        <li>Biryani</li>
-      </ul>
+    <div className="App">
+      <Header />
+      <Category />
+      <Routes>
+        <Route exact path='/' element={<HomePage />} />
+        <Route path='/product/:productid' element={<ProductDetails />} />
+        <Route path='*' element={() => <h1>404 Product Not Found</h1>} />
+      </Routes>
+      <Footer />
+      <BottomFooter />
 
-      <ol>
-      <h5>Things I do in the morning</h5>
-        <li>Praying</li>
-        <li>Exercise</li>
-      </ol>
-
-      <p>Adding Numbers 6 + 6 = {6+6}</p>
-      <p>Multiplying Numbers 6 * 6 = {6*6}</p>
     </div>
   );
 }

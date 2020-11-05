@@ -1,0 +1,130 @@
+/* ----------------------------------------------- */
+/* -------------top footer component---------------- */
+
+.top-footer {
+  display: flex;
+  color: #002f34;
+  background: #f7f8f9;
+  padding: 0px 47px;
+  height: auto;
+}
+.top-text h3 {
+  font-size: 34px;
+  font-weight: bold;
+}
+.top-footer p {
+  font-size: 20px;
+}
+.top-text {
+  padding: 30px 40px;
+}
+.olx-footer {
+  vertical-align: bottom;
+}
+.applink {
+  display: flex;
+}
+.links h5 {
+  text-transform: uppercase;
+  font-size: 14px;
+  font-weight: bold;
+}
+.links {
+  padding: 40px;
+}
+.links img {
+  margin-right: 7px;
+  margin-top: 10px;
+}
+.line {
+  border-left: 2px solid rgba(0, 47, 52, 0.2);
+  height: 20vh;
+  margin: 30px 0px;
+}
+
+/* ----------------------------------------- */
+/* -------------footer component---------------- */
+
+.footer {
+  background: #ebeeef;
+  flex-basis: 20%;
+}
+.footer h6 {
+  font-size: 14px;
+  line-height: 20px;
+  font-weight: 900;
+  text-align: left;
+
+  text-transform: uppercase;
+}
+.list li {
+  list-style-type: none;
+  display: flex;
+  flex-direction: row;
+  font-size: 11px;
+  padding: 8px;
+  text-transform: capitalize;
+  padding: 0;
+  margin: 8px 0 0;
+}
+.list ul {
+  padding-inline-start: 0px;
+  margin-bottom: 0;
+}
+.list a {
+  color: rgba(0, 47, 52, 0.64);
+}
+.list a:hover {
+  color: #002f34;
+  text-decoration: none;
+}
+.foot {
+  padding: 20px 0 32px 40px;
+}
+.social-icons i {
+  margin-right: 15px;
+  font-size: 15px;
+  color: rgba(0, 47, 52, 0.64);
+}
+.app {
+  position: absolute;
+  bottom: 0;
+}
+.app img {
+  padding: 0 8px 0 0;
+}
+
+/* ----------------------------------- */
+/* -------------bottom footer component---------------- */
+.bottom-footer {
+  background: #002f34;
+  color: white;
+  display: flex;
+  padding: 16px 0;
+}
+.bottom-footer p,
+h6 {
+  margin-bottom: 0;
+  font-size: 12px;
+  padding-right: 5px;
+  align-items: center;
+}
+.bottom-footer h6 {
+  padding-top: 2px;
+}
+.bottom-footer p {
+  padding-left: 40px;
+  font-weight: bold;
+}
+.bottom-footer a {
+  padding-left: 2px;
+  color: white;
+  text-decoration: none;
+  padding-right: 2px;
+}
+.to-right {
+  margin-left: auto;
+}
+.pad {
+  padding-right: 40px;
+}

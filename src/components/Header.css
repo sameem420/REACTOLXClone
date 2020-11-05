@@ -1,0 +1,94 @@
+.navbar {
+  background: #f7f8f9 !important;
+}
+.header-body {
+  display: inline;
+  position: relative;
+}
+.location {
+  position: relative;
+  display: flex;
+  align-items: center;
+  background: white;
+  border: 2px #333 solid;
+  border-radius: 5px;
+  padding: 0px 8px;
+}
+
+.search-icon {
+  font-size: 22px;
+  padding: 5px;
+}
+.country {
+  font-size: 15px;
+  border: none;
+  outline: none;
+  flex: 1;
+  padding: 5px;
+}
+.icon-chevron {
+  font-size: 22px;
+  padding: 5px;
+  background: white;
+  border: none;
+  flex: 1;
+}
+
+.country {
+  font-size: 15px;
+  border: none;
+  outline: none;
+  flex: 1;
+  padding: 5px;
+}
+.query {
+  display: flex;
+  align-items: center;
+}
+
+.query {
+  background: white;
+  border: 2px #333 solid;
+  border-radius: 5px;
+  flex: 2;
+  margin: 0px 20px;
+}
+.query .search {
+  font-size: 15px;
+  border: none;
+  outline: none;
+  flex: 1;
+  padding: 5px;
+  width: 48vw;
+  /* width: 640px; */
+}
+
+.query .search-go {
+  padding: 5px;
+  flex: 1;
+  background: #333;
+  color: white;
+  border: none;
+  max-width: 50px;
+  font-size: 22px;
+}
+
+.query .search-go:hover {
+}
+
+.signin {
+  margin: 16px;
+}
+.signin a {
+  text-decoration: underline;
+  color: #002f34;
+}
+.signin a:hover {
+  color: #002f34;
+  text-decoration: none;
+}
+
+#sell-img {
+  margin-top: 6px;
+  width: 90px;
+}
